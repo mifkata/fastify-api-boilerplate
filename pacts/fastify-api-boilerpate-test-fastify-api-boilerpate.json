@@ -1,0 +1,33 @@
+{
+  "consumer": {
+    "name": "fastify-api-boilerpate-test"
+  },
+  "interactions": [
+    {
+      "description": "a request for the root path",
+      "providerState": "base state",
+      "request": {
+        "method": "GET",
+        "path": "/"
+      },
+      "response": {
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "10.4.1"
+    },
+    "pactRust": {
+      "ffi": "0.4.0",
+      "models": "1.0.4"
+    },
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  },
+  "provider": {
+    "name": "fastify-api-boilerpate"
+  }
+}

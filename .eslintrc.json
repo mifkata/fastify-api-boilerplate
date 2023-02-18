@@ -20,6 +20,13 @@
     "plugin:jest/style",
     "prettier"
   ],
+  "excludeFiles": [
+    "node_modules/**/*",
+    "build/**/*",
+    "dist/**/*",
+    "coverage/**/*",
+    "jest.config.js"
+  ],
   "settings": {
     "import/resolver": {
       "typescript": {
