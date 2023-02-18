@@ -15,5 +15,5 @@ app
     app.log.info(`Listening on port: ${port}`);
   })
   .catch((e) => {
-    app.log.error(e, `Server exited with error`)
+    app.log.error(e, `Server exited with error`);
   });
